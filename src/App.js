@@ -17,10 +17,16 @@ class App extends Component {
           flexDirection: "column"
         })}
       >
-        <h1 {...css({ fontSize: "3rem" })}>Render Cake</h1>
+        <h1 {...css({ fontSize: "3rem" })}>RenderCake</h1>
         <p {...css({ fontFamily: "'Open Sans'", fontStyle: "italic" })}>
-          something wicked this way comes
+          Need help building something your customers will actually enjoy using?
         </p>
+        <a
+          {...css({ fontFamily: "'Open Sans'", color: "rgba(0,0,0,0.84)" })}
+          href="mailto:joep@rendercake.com"
+        >
+          joep@RenderCake.com
+        </a>
       </div>
     );
   }
